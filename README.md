@@ -8,8 +8,16 @@ Sample of Results
 
 1. ![China Hubei Province](./samples/China-Hubei.png)
 
+1. ![China Hubei Province Log Y](./samples/China-Hubei-logy.png)
+
 1. ![Italy](./samples/Italy.png)
+
+1. ![Italy Log Y](./samples/Italy-logy.png)
 
 1. ![United States New York](./samples/US-NewYork.png)
 
+1. ![United States New York Log Y](./samples/US-NewYork-logy.png)
+
 1. ![United States North Carolina](./samples/US-NorthCarolina.png)
+
+1. ![United States North Carolina Log Y](./samples/US-NorthCarolina-logy.png)
