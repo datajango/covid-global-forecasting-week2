@@ -127,8 +127,8 @@ for index, region in enumerate(regions):
             where2 =  df['Province_State']==state
             df2 = df[where2]
             print(df2.head(3))
-            
-            df2.plot(kind='scatter',x='Date',y='ConfirmedCases',color='red')
+            title = "{}-{}".format(region, state)
+            df2.plot(kind='scatter',x='Date',y='ConfirmedCases',color='red', title = title)
             try:
                 filename = os.path.join("./plots/{}-{}.png".format(region, state))
                 print(filename)
@@ -139,10 +139,10 @@ for index, region in enumerate(regions):
 
         #sys.exit()
     else:
-        continue
+        title = "{}".format(region)
         #print(df.head(3))
 
-        df.plot(kind='scatter',x='Date',y='ConfirmedCases',color='red')
+        df.plot(kind='scatter',x='Date',y='ConfirmedCases',color='red', title=title)
         #plt.show()
         try:
             filename = os.path.join("./plots/{}.png".format(region))
